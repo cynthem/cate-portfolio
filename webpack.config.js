@@ -15,7 +15,7 @@ module.exports = {
     ],
     devServer: {
         static: {
-            directory: path.join(__dirname, "build"),
+            directory: path.join(__dirname, "build")
         },
         port: 3000
     },
@@ -24,7 +24,7 @@ module.exports = {
             {
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
-                use: ["babel-loader"],
+                use: ["babel-loader"]
             },
             {
                 test: /\.css$/,
@@ -34,8 +34,8 @@ module.exports = {
                 ]
             },
             {
-                test: /\.svg$/,
-                use: "file-loader"
+                test: /\.(gif|svg|jpg|png)$/,
+                loader: "file-loader"
             },
             {
                 test: /\.(woff|woff2|ttf|eot)$/,

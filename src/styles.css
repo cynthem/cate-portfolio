@@ -53,3 +53,8 @@ body {
     font-family: 'Abril Fatface', serif;
 }
 
+.header {
+    background-color: #284D68;
+    color: #5dd597;
+    font-size: 50px;
+}
