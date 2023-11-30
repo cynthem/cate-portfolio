@@ -17,11 +17,52 @@ export default function Header() {
             transition: { duration: 0.5 }
         }
     }
-    
+
     return (
         <div className="header">
-            <div className='heading'></div>
-            <div className='images'></div>
+            <div className='heading'>
+                <WindupChildren>
+                    <Pace>
+                        <h1>Cate Curtis</h1>
+                        <h2 className='title'>Dance & Yoga Instructor</h2>
+                    </Pace>
+                </WindupChildren>
+            </div>
+            <div className='images'>
+                <motion.img 
+                    className='large-img'
+                    alt='Dance class'
+                    src={smile}
+                    variants={animateImg}
+                    initial="rest"
+                    whileHover="hover"
+                    animate="rest"
+                />
+                <motion.img 
+                    alt='Salsa dance'
+                    src={salsa}
+                    variants={animateImg}
+                    initial="rest"
+                    whileHover="hover"
+                    animate="rest"
+                />
+                <motion.img 
+                    alt='Tango dance'
+                    src={dip}
+                    variants={animateImg}
+                    initial="rest"
+                    whileHover="hover"
+                    animate="rest"
+                />
+                <motion.img 
+                    alt='Yoga class'
+                    src={yoga}
+                    variants={animateImg}
+                    initial="rest"
+                    whileHover="hover"
+                    animate="rest"
+                />
+            </div>
         </div>
     );
 }
