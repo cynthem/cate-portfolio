@@ -22,7 +22,7 @@ export default function Header() {
         <div className="header">
             <div className='heading'>
                 <WindupChildren>
-                    <Pace>
+                    <Pace ms={40}>
                         <h1>Cate Curtis</h1>
                         <h2 className='title'>Dance & Yoga Instructor</h2>
                     </Pace>
