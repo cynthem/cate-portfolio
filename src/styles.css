@@ -58,3 +58,7 @@ body {
     color: #5dd597;
     font-size: 50px;
 }
+
+.images > img {
+    width: 100px;
+}
