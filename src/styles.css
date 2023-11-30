@@ -59,6 +59,10 @@ body {
     font-size: 50px;
 }
 
+.offerings {
+    display: flex;
+}
+
 .images > img {
     width: 100px;
 }
