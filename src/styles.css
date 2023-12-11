@@ -47,12 +47,12 @@ body {
     overscroll-behavior-x: none;
     overscroll-behavior-y: none;
     cursor: default;
-    font-family: 'Abril Fatface', serif;
 }
 
 /* --- HOME --- */
 
-/* .home {} */
+.home {
+}
 
 /* OLD: 
 .App {
@@ -60,23 +60,23 @@ body {
     flex-direction: column;
 }*/
 
-/* .middle {} */
-
-/* OLD:
 .middle {
     display: flex;
-}*/
+    flex-direction: column;
+}
 
 .offerings {
     display: flex;
+    width: 100%;
+    background-color: blue;
 }
 
 
 /* --- HEADER --- */
 
 .header {
-    background-color: #284D68;
-    color: #5dd597;
+    background-color: #476377;
+    color: #86ecb8;
     font-size: 50px;
 }
 
@@ -90,7 +90,9 @@ body {
     margin-bottom: -20px;
 }*/
 
-/* .heading {} */
+.heading {
+
+}
 
 /* OLD: 
 .header {
@@ -108,16 +110,15 @@ body {
     top: -40px;
 }*/
 
-/* h1 {} */
-
-/* OLD: 
 h1 {
-    letter-spacing: 3px;
-}*/
+    font-family: 'Abril Fatface', sans-serif;
+}
 
-/* h2 {} */
+h2 {} 
 
-/* .title {} */
+.title {
+    
+}
 
 /* OLD: 
 #headings-title {
@@ -127,34 +128,28 @@ h1 {
     font-size: 28px;
 }*/
 
-/* .images {} */
-
-.images > img {
-    width: 100px;
+.images {
 }
 
 /* OLD: 
 .images {
     margin: 0 auto;
-}
+}*/
 
 .images > img {
     width: 200px;
     height: 200px;
     margin-right: 25px;
-}*/
+}
 
-/* .large-img {} */
-
-/* OLD: 
 .images > .large-img {
     height: 336px;
-}*/
+}
 
 
 /* --- CLASSES --- */
 
-/* .classes */
+.classes {}
 
 /* OLD: 
 .left {
@@ -221,7 +216,7 @@ h1 {
 
 /* --- LESSONS --- */
 
-/* .lessons {} */
+.lessons {}
 
 /* OLD: 
 .right {
@@ -290,7 +285,10 @@ REPEATED ABOVE: .left-header, .right-header {
 
 /* --- ABOUT --- */
 
-/* .about {} */
+.about {
+    width: 100%;
+    background-color: red;
+}
 
 
 /* --- FOOTER --- */
