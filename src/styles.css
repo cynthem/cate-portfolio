@@ -296,7 +296,16 @@ REPEATED ABOVE: .left-header, .right-header {
 /* --- FOOTER --- */
 
 .footer {
-    
+    background-color: #6A7D7E;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.5px;
+}
+
+.copyright > span {
+    font-size: 20px;
 }
 
 /* OLD: 
