@@ -181,8 +181,8 @@ li {
     color: #005a2c;
 }
 
-.northwestern:hover {
-    transform: scale(1.2);
+a:hover {
+    color: yellow;
 }
 
 
