@@ -17,7 +17,16 @@ export default function Classes() {
                     <p>Wednesdays 7:15-8:15 pm</p>
                 </div>
             </div>
-            <p className='classes-link'>For more information, and to register, visit the <a href="https://www.northwestern.edu/norris/arts-recreation/mini-courses/">Northwestern website</a>.</p>
+            <p className='classes-link'>For more information, and to register, visit the 
+                <a 
+                    href="https://www.northwestern.edu/norris/arts-recreation/mini-courses/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Northwestern website
+                </a>
+                .
+            </p>
         </div>
     );
 }
