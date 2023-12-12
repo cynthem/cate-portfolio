@@ -170,9 +170,8 @@ li {
     margin-bottom: 35px;
 }
 
-.classes-bachata,
-.classes-swing {
-    text-align: left;
+.classes-list {
+    display: flex;
 }
 
 /*.left-content > .link {
