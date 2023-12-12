@@ -49,16 +49,8 @@ body {
     cursor: default;
 }
 
+
 /* --- HOME --- */
-
-.home {
-}
-
-/* OLD: 
-.App {
-    display: flex;
-    flex-direction: column;
-}*/
 
 .middle {
     display: flex;
@@ -68,7 +60,6 @@ body {
 .offerings {
     display: flex;
     width: 100%;
-    background-color: blue;
 }
 
 
@@ -103,14 +94,6 @@ h2 {
     font-size: 28px;
 } 
 
-.images {
-}
-
-/* OLD: 
-.images {
-    margin: 0 auto;
-}*/
-
 .images > img {
     width: 200px;
     height: 200px;
@@ -124,7 +107,9 @@ h2 {
 
 /* --- CLASSES --- */
 
-.classes {}
+.classes {
+    background-color: #005a2c;
+}
 
 /* OLD: 
 .left {
@@ -191,7 +176,9 @@ h2 {
 
 /* --- LESSONS --- */
 
-.lessons {}
+.lessons {
+    background-color: #F7F6F7;
+}
 
 /* OLD: 
 .right {
