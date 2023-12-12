@@ -3,7 +3,7 @@ import React from 'react';
 export default function Lessons() {
     return (
         <div className="lessons">
-            <h3 classname="lessons-header">Lessons</h3>
+            <h3 classname="lessons-header">Private Lessons</h3>
             <p classname='lessons-intro'>I offer private lessons that are tailored to your needs, whether that is learning a new style, improving your current skills, or preparing for a special event. I'm also happy to recommend styles if you don't have a particular dance in mind.</p>
             <p className='lessons-list'>Many styles to choose from:</p>
             <ul>
