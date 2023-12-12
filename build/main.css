@@ -3,12 +3,12 @@
     font-family: 'Abril Fatface';
     font-style: normal;
     font-weight: 400;
-    src: url('./assets/fonts/abril-fatface-v23-latin/abril-fatface-v23-latin-regular.eot'); /* IE9 Compat Modes */
-    src: url('./assets/fonts/abril-fatface-v23-latin/abril-fatface-v23-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('./assets/fonts/abril-fatface-v23-latin/abril-fatface-v23-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-         url('./assets/fonts/abril-fatface-v23-latin/abril-fatface-v23-latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
-         url('./assets/fonts/abril-fatface-v23-latin/abril-fatface-v23-latin-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
-         url('./assets/fonts/abril-fatface-v23-latin/abril-fatface-v23-latin-regular.svg#AbrilFatface') format('svg'); /* Legacy iOS */
+    src: url(a50ff46f8e85ad10f1c4.eot); /* IE9 Compat Modes */
+    src: url(a50ff46f8e85ad10f1c4.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+         url(e28de833ee7ea7791eba.woff2) format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url(77e21841a0d8f12af2f6.woff) format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url(664dffd53d8740518801.ttf) format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url(ce70537b7a35b4351ee3.svg#AbrilFatface) format('svg'); /* Legacy iOS */
 }
 
 @font-face {
@@ -16,12 +16,12 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    src: url('./assets/fonts/poppins-v20-latin/poppins-v20-latin-regular.eot'); /* IE9 Compat Modes */
-    src: url('./assets/fonts/poppins-v20-latin/poppins-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('./assets/fonts/poppins-v20-latin/poppins-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('./assets/fonts/poppins-v20-latin/poppins-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('./assets/fonts/poppins-v20-latin/poppins-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('./assets/fonts/poppins-v20-latin/poppins-v20-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+    src: url(27a38aa36ed539d2b33f.eot); /* IE9 Compat Modes */
+    src: url(27a38aa36ed539d2b33f.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+         url(405055dd680fa1dcdfa2.woff2) format('woff2'), /* Super Modern Browsers */
+         url(f61407da33b59324fbef.woff) format('woff'), /* Modern Browsers */
+         url(80946c0880373b223d9c.ttf) format('truetype'), /* Safari, Android, iOS */
+         url(1061629a9fa53a7a2e02.svg#Poppins) format('svg'); /* Legacy iOS */
 }
 
 @font-face {
@@ -29,12 +29,12 @@
     font-family: 'Poppins';
     font-style: italic;
     font-weight: 400;
-    src: url('./assets/fonts/poppins-v20-latin/poppins-v20-latin-italic.eot'); /* IE9 Compat Modes */
-    src: url('./assets/fonts/poppins-v20-latin/poppins-v20-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('./assets/fonts/poppins-v20-latin/poppins-v20-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
-         url('./assets/fonts/poppins-v20-latin/poppins-v20-latin-italic.woff') format('woff'), /* Modern Browsers */
-         url('./assets/fonts/poppins-v20-latin/poppins-v20-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('./assets/fonts/poppins-v20-latin/poppins-v20-latin-italic.svg#Poppins') format('svg'); /* Legacy iOS */
+    src: url(e6517cf495b9f12d2fec.eot); /* IE9 Compat Modes */
+    src: url(e6517cf495b9f12d2fec.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+         url(ed357fa1fa06a3e00d46.woff2) format('woff2'), /* Super Modern Browsers */
+         url(1b5d6fb1ae073dcb6e9c.woff) format('woff'), /* Modern Browsers */
+         url(4d6bd3be066267e3e63b.ttf) format('truetype'), /* Safari, Android, iOS */
+         url(a753085a04518680084b.svg#Poppins) format('svg'); /* Legacy iOS */
 } 
 
 * {

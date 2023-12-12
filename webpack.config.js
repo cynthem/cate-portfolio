@@ -29,25 +29,12 @@ module.exports = {
                 use: ["babel-loader"]
             },
             {
-                test: /\.css$/,
-                use: [
-                    'style-loader',
-                    'css-loader'
-                ]
-            },
-            {
                 test: /\.(gif|svg|jpg|png)$/,
                 loader: "file-loader"
             },
             {
-                test: /\.css$/,
-                use: [
-                    MiniCssExtractPlugin.loader,
-                    {
-                        loader: 'css-loader',
-                        options: { url: false }
-                    }
-                ]
+                test: /\.css$/i,
+                use: [MiniCssExtractPlugin.loader, "css-loader"],
             }
         ]
     },
