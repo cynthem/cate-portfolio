@@ -177,12 +177,16 @@ li {
 .classes-list {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     color: #005a2c;
 }
 
+a {
+    padding-left: 4px;
+}
+
 a:hover {
-    color: yellow;
+    color: #005a2c;
 }
 
 

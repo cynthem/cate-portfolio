@@ -181,6 +181,10 @@ li {
     color: #005a2c;
 }
 
+a {
+    padding-left: 4px;
+}
+
 a:hover {
     color: #005a2c;
 }
