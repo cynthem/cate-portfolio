@@ -109,14 +109,9 @@ h2 {
 
 .classes {
     background-color: #005a2c;
-}
-
-/* OLD: 
-.left {
-    background-color: #005a2c;
     width: 50vw;
     color: #F7F6F7;
-}*/
+}
 
 /* OLD: 
 .left-header, .right-header {
@@ -178,13 +173,15 @@ h2 {
 
 .lessons {
     background-color: #F7F6F7;
+    width: 50vw;
+    color: #284D68;
 }
 
 /* OLD: 
 .right {
-    background-color: #F7F6F7;
-    width: 50vw;
-    color: #284D68;
+    //background-color: #F7F6F7;
+    //width: 50vw;
+    //color: #284D68;
     font-size: 18px;
 }*/
 
@@ -249,7 +246,7 @@ REPEATED ABOVE: .left-header, .right-header {
 
 .about {
     width: 100%;
-    background-color: red;
+    background-color: #86ecb8;
 }
 
 
