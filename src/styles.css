@@ -105,9 +105,9 @@ h2 {
 }
 
 
-/* --- CLASSES --- */
+/* --- LESSONS --- */
 
-.classes {
+.lessons {
     background-color: #005a2c;
     width: 50vw;
     color: #F7F6F7;
@@ -177,24 +177,24 @@ h2 {
 }*/
 
 
-/* --- LESSONS --- */
+/* --- CLASSES --- */
 
-.lessons {
+.classes {
     background-color: #F7F6F7;
     width: 50vw;
     color: #284D68;
 }
 
-/* OLD: 
-.right {
+/* .right {
     //background-color: #F7F6F7;
     //width: 50vw;
     //color: #284D68;
     font-size: 18px;
 }*/
 
-/* OLD: 
-REPEATED ABOVE: .left-header, .right-header {
+.classes-header {}
+
+/* REPEATED ABOVE: .left-header, .right-header {
     text-align: center;
     letter-spacing: 1px;
     font-size: 50px;
@@ -256,6 +256,84 @@ REPEATED ABOVE: .left-header, .right-header {
     width: 100%;
     background-color: #86ecb8;
 }
+
+/* .right {
+    //background-color: #F7F6F7;
+    //width: 50vw;
+    //color: #284D68;
+    font-size: 18px;
+}*/
+
+.about-header {}
+
+/* REPEATED ABOVE: .left-header, .right-header {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 50px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}*/
+
+.about-contact {}
+
+/*.contact {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}*/
+
+.about-contact > .phone {}
+
+/*.contact > .phone {
+    margin: 20px 20px 0px 20px;
+}
+
+.phone > a {
+    color: rgb(25, 25, 202);
+    text-decoration: none;
+}
+
+.contact > a {
+    display: inline-block;
+}
+
+.contact > a > img {
+    width: 40px;
+    height: 40px;
+}*/
+
+.about-credentials {}
+
+/*.credentials {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+}*/
+
+.about-credentials-description {}
+
+.about-credentials-list {}
+
+.about-credentials-list > li {}
+
+/*.cred-list > li {
+    color: #005a2c;
+    font-size: 16px;
+    margin-top: 5px;
+}*/
+
+.about-sendoff {}
+
+/*.sendoff-text {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 17px;
+    margin: 40px 20px 0px;
+}*/
 
 
 /* --- FOOTER --- */
