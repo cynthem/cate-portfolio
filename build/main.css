@@ -78,53 +78,30 @@ body {
     background-color: #476377;
     color: #86ecb8;
     font-size: 50px;
-}
-
-/* OLD:
-.main {
-    background-color: #284D68;
-    color: #5dd597;
-    font-size: 50px;
+    position: relative;
+    height: 500px;
     display: flex;
+    align-items: flex-end;
     justify-content: center;
-    margin-bottom: -20px;
-}*/
+}
 
 .heading {
-}
-
-/* OLD: 
-.header {
-    position: relative;
-    display: flex;
-    align-items: center;
-    height: 500px;
-    margin-top: 70px;
-    width: 100vw;
-}
-
-.headings {
     position: absolute;
-    left: 40vw;
-    top: -40px;
-}*/
+    top: 0;
+    left: 36vw;
+    margin-top: 50px;
+}
 
 h1 {
     font-family: 'Abril Fatface', sans-serif;
+    letter-spacing: 2px;
 }
 
-h2 {} 
-
-.title {
-}
-
-/* OLD: 
-#headings-title {
+h2 {
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
     font-style: italic;
     font-size: 28px;
-}*/
+} 
 
 .images {
 }
