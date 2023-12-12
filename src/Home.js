@@ -11,8 +11,8 @@ export default function Home() {
             <Header />
             <div className='middle'>
                 <div className='offerings'>
-                    <Classes />
                     <Lessons />
+                    <Classes />
                 </div>
                 <About />
             </div>
