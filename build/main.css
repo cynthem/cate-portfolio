@@ -113,10 +113,13 @@ h2 {
     color: #F7F6F7;
 }
 
-.lessons-header {}
+.lessons-header {
+    text-align: center;
+    color: blue;
+}
 
 /* .left-header, .right-header {
-    text-align: center;
+    
     letter-spacing: 1px;
     font-size: 50px;
     margin-top: 10px;
