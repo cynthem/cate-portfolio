@@ -105,151 +105,78 @@ h2 {
 }
 
 
-/* --- LESSONS --- */
+/* --- LESSONS  & CLASSES --- */
+
+.lessons,
+.classes {
+    width: 50vw;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height: 1.5;
+}
 
 .lessons {
     background-color: #005a2c;
-    width: 50vw;
     color: #F7F6F7;
 }
-
-.lessons-header {
-    text-align: center;
-    color: blue;
-}
-
-/* .left-header, .right-header {
-    
-    letter-spacing: 1px;
-    font-size: 50px;
-    margin-top: 10px;
-    padding-bottom: 20px;
-}
-
-.left-content {
-    font-family: 'Poppins', sans-serif;
-    margin: 20px 20px 30px 40px;
-    font-size: 17px;
-}*/
-
-.lessons-intro {}
-
-.lessons-list {}
-
-/*.left-content > p {
-    margin-bottom: 5px;
-    color: #b3ffd8;
-    font-size: 18px;
-}
-
-.left-content > .rate,
-.left-content > .link {
-    margin-top: 25px;
-}
-
-.left-content > .lesson-text-2 {
-    color: #b3ffd8;
-    font-size: 16px;
-}*/
-
-.lessons > ul {}
-
-/*.left-content > ul {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-bottom: 30px;
-}*/
-
-.lessons-price {}
-
-/*.left-content > .link,
-.left-content > .address  {
-    text-align: center;
-}
-
-.left-content > .link {
-    color: #75ffff;
-}
-
-#zoom {
-    margin-bottom: 25px;
-    margin-top: 25px;
-    text-align: center;
-    color: #F7F6F7;
-    font-size: 18px;
-}*/
-
-
-/* --- CLASSES --- */
 
 .classes {
     background-color: #F7F6F7;
-    width: 50vw;
     color: #284D68;
 }
 
-/* .right {
-    //background-color: #F7F6F7;
-    //width: 50vw;
-    //color: #284D68;
-    font-size: 18px;
-}*/
-
-.classes-header {}
-
-/* REPEATED ABOVE: .left-header, .right-header {
-    text-align: center;
-    letter-spacing: 1px;
-    font-size: 50px;
-    margin-top: 10px;
-    padding-bottom: 20px;
-}
-
-.contact {
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.contact > .phone {
-    margin: 20px 20px 0px 20px;
-}
-
-.phone > a {
-    color: rgb(25, 25, 202);
-    text-decoration: none;
-}
-
-.contact > a {
-    display: inline-block;
-}
-
-.contact > a > img {
-    width: 40px;
-    height: 40px;
-}
-
-.credentials {
-    margin-top: 30px;
+.lessons > *,
+.classes > * {
     margin-left: 30px;
-    font-family: 'Poppins', sans-serif;
+    margin-right: 30px;
 }
 
-.cred-list > li {
-    color: #005a2c;
-    font-size: 16px;
-    margin-top: 5px;
+.lessons-header, 
+.classes-header {
+    font-family: 'Abril Fatface', serif;
+    font-size: 48px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    padding-bottom: 40px;
 }
 
-.sendoff-text {
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-style: italic;
+.lessons-intro,
+li {
+    color: #b3ffd8;
+}
+
+.lessons-intro {
+    margin-bottom: 40px;
+}
+
+.lessons-list, 
+li {
+    text-align: left;
+}
+
+.lessons-list {
     font-size: 17px;
-    margin: 40px 20px 0px;
+    margin-bottom: 10px;
+}
+
+.lessons > ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    margin-bottom: 50px;
+}
+
+.lessons-price {
+    margin-bottom: 35px;
+}
+
+.classes-bachata,
+.classes-swing {
+    text-align: left;
+}
+
+/*.left-content > .link {
+    color: #75ffff;
 }*/
 
 
