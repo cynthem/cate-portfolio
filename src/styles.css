@@ -111,9 +111,14 @@ body {
 
 h1 {
     font-family: 'Abril Fatface', sans-serif;
+    letter-spacing: 2px;
 }
 
-h2 {} 
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 28px;
+} 
 
 .title {
 }

@@ -24,7 +24,7 @@ export default function Header() {
                 <WindupChildren>
                     <Pace ms={40}>
                         <h1>Cate Curtis</h1>
-                        <h2 className='title'>Dance & Yoga Instructor</h2>
+                        <h2>Dance & Yoga Instructor</h2>
                     </Pace>
                 </WindupChildren>
             </div>
