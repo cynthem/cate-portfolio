@@ -216,6 +216,11 @@ a:hover {
     margin-bottom: 30px;
 }
 
+.about-contact {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
 .about-contact > a > img {
     width: 40px;
     height: 40px;
@@ -237,3 +242,59 @@ a:hover {
 
 
 /* --- RESPONSIVE STYLES --- */
+
+@media (max-width: 950px) {
+    .header {
+        font-size: 40px;
+        height: 440px;
+    }
+
+    .heading {
+        margin-top: 40px;
+    }
+
+    .images > img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .images > .large-img {
+        height: 269px;
+    }
+
+    .lessons,
+    .classes {
+        font-size: 14px;
+    }
+
+    .classes-list {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 850px) {
+    .header {
+        height: 400px;
+    }
+
+    .heading {
+        top: 20px;
+        left: 30vw;
+        margin-top: 10px;
+    }
+
+    .lessons-header,
+    .classes-header,
+    .about-header {
+        font-size: 40px;
+    }
+
+    .classes-list {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+/*
+
+ */
