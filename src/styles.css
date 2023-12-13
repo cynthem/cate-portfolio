@@ -200,8 +200,6 @@ a:hover {
     background-color: #86ecb8;
 }
 
-.about-contact {}
-
 /*.contact {
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -210,8 +208,6 @@ a:hover {
     align-items: center;
     gap: 20px;
 }*/
-
-.about-contact > .phone {}
 
 /*.contact > .phone {
     margin: 20px 20px 0px 20px;
@@ -225,6 +221,10 @@ a:hover {
 .contact > a {
     display: inline-block;
 }*/
+
+.about-email {
+    margin-bottom: 20px;
+}
 
 .about-contact > a > img {
     width: 40px;

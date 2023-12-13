@@ -20,13 +20,25 @@ export default function About() {
     return (
         <div className="about">
             <h3 className='about-header'>About</h3>
+            <div className='about-credentials'>
+                <p className='about-credentials-description'>As a life-long dancer, some of my experience includes:</p>
+                <ul className='about-credentials-list'>
+                    <li>15+ years of ballet & jazz</li>
+                    <li>Social dancing since 2005</li>
+                    <li>Yoga certified</li>
+                    <li>3 years of burlesque</li>
+                    <li>2 years of belly dance</li>
+                    <li>5+ years powerlifting</li>
+                    <li>2 years distance running</li>
+                </ul>
+            </div>
             <div className='about-contact'>
                 <p className='about-email'>Email<motion.a
                         href='mailto:cate.gc@gmail.com'
                         whileHover={{ color: '#5dd597' }}
                     >
                         cate.gc@gmail.com
-                    </motion.a> to schedule a lesson.
+                    </motion.a> to schedule a lesson. And don't hesitate to reach out if I can answer any questions or help you with your dancing goals.
                 </p>
                 <motion.a
                     href='https://www.instagram.com/cateloose'
@@ -44,19 +56,6 @@ export default function About() {
                     />
                 </motion.a>
             </div>
-            <div className='about-credentials'>
-                <p className='about-credentials-description'>As a life-long dancer, some of my experience includes:</p>
-                <ul className='about-credentials-list'>
-                    <li>15+ years of ballet & jazz</li>
-                    <li>Social dancing since 2005</li>
-                    <li>Yoga certified</li>
-                    <li>3 years of burlesque</li>
-                    <li>2 years of belly dance</li>
-                    <li>5+ years powerlifting</li>
-                    <li>2 years distance running</li>
-                </ul>
-            </div>
-            <p className='about-sendoff'>Don't hesitate to reach out if I can answer any questions or help you with your dancing goals!</p>
         </div>
     );
 }
