@@ -204,6 +204,10 @@ a:hover {
     margin-bottom: 40px;
 }
 
+.about-credentials-description {
+    margin-bottom: 10px;
+}
+
 .about-credentials-list > li {
     color: black;
 }

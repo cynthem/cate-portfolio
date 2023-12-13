@@ -40,21 +40,21 @@ export default function About() {
                         cate.gc@gmail.com
                     </motion.a> to schedule a lesson. And don't hesitate to reach out if I can answer any questions or help you with your dancing goals.
                 </p>
-                <motion.a
+                <a
                     href='https://www.instagram.com/cateloose'
                     target="_blank"
                     rel="noopener noreferrer"
-                    variants={animateIcon}
-                    initial="rest"
-                    whileHover="hover"
-                    whileTap="tap"
-                    animate="rest"
                 >
-                    <img 
+                    <motion.img 
                         alt='Instagram icon'
                         src={insta}
+                        variants={animateIcon}
+                        initial="rest"
+                        whileHover="hover"
+                        whileTap="tap"
+                        animate="rest"
                     />
-                </motion.a>
+                </a>
             </div>
         </div>
     );

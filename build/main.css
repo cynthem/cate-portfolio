@@ -50,7 +50,7 @@ body {
 }
 
 
-/* --- HOME --- */
+/* --- HOME & HEADER --- */
 
 .middle {
     display: flex;
@@ -61,9 +61,6 @@ body {
     display: flex;
     width: 100%;
 }
-
-
-/* --- HEADER --- */
 
 .header {
     background-color: #476377;
@@ -200,66 +197,30 @@ a:hover {
     background-color: #86ecb8;
 }
 
-/*.contact {
-    font-family: 'Poppins', sans-serif;
+.about-credentials {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 20px;
-}*/
-
-/*.contact > .phone {
-    margin: 20px 20px 0px 20px;
+    margin-bottom: 40px;
 }
 
-.phone > a {
-    color: rgb(25, 25, 202);
-    text-decoration: none;
+.about-credentials-description {
+    margin-bottom: 10px;
 }
 
-.contact > a {
-    display: inline-block;
-}*/
+.about-credentials-list > li {
+    color: black;
+}
 
 .about-email {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .about-contact > a > img {
     width: 40px;
     height: 40px;
+    margin-bottom: 20px;
 }
-
-.about-credentials {}
-
-/*.credentials {
-    margin-top: 30px;
-    margin-left: 30px;
-    font-family: 'Poppins', sans-serif;
-}*/
-
-.about-credentials-description {}
-
-.about-credentials-list {}
-
-.about-credentials-list > li {}
-
-/*.cred-list > li {
-    color: #005a2c;
-    font-size: 16px;
-    margin-top: 5px;
-}*/
-
-.about-sendoff {}
-
-/*.sendoff-text {
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-style: italic;
-    font-size: 17px;
-    margin: 40px 20px 0px;
-}*/
 
 
 /* --- FOOTER --- */
