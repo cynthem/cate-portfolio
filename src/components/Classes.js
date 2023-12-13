@@ -7,12 +7,12 @@ export default function Classes() {
             <p className='classes-description'>Join me at Northwestern University for group classes at the Norris University Center! Lessons are open to the public and currently include:</p>
             <div className='classes-list'>
                 <div className='classes-bachata'>
-                    <p>Intro to Bachata</p>
+                    <p className='classes-name'>Intro to Bachata</p>
                     <p>January 17 - February 21</p>
                     <p>Wednesdays 6-7 pm</p>
                 </div>
                 <div className='classes-swing'>
-                    <p>Intro to Swing</p>
+                    <p className='classes-name'>Intro to Swing</p>
                     <p>January 17 - February 21</p>
                     <p>Wednesdays 7:15-8:15 pm</p>
                 </div>
