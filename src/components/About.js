@@ -21,7 +21,7 @@ export default function About() {
         <div className="about">
             <h3 className='about-header'>About</h3>
             <div className='about-contact'>
-                <p className='phone'>Email <motion.a
+                <p className='phone'>Email<motion.a
                         href='mailto:cate.gc@gmail.com'
                         whileHover={{ color: '#5dd597' }}
                     >

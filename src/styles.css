@@ -105,14 +105,19 @@ h2 {
 }
 
 
-/* --- LESSONS  & CLASSES --- */
+/* --- LESSONS & CLASSES & ABOUT --- */
+
+.lessons,
+.classes,
+.about {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height: 1.5;
+}
 
 .lessons,
 .classes {
     width: 50vw;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    line-height: 1.5;
 }
 
 .lessons {
@@ -132,7 +137,8 @@ h2 {
 }
 
 .lessons-header, 
-.classes-header {
+.classes-header,
+.about-header {
     font-family: 'Abril Fatface', serif;
     font-size: 48px;
     letter-spacing: 1px;
@@ -189,30 +195,10 @@ a:hover {
     color: #005a2c;
 }
 
-
-/* --- ABOUT --- */
-
 .about {
     width: 100%;
     background-color: #86ecb8;
 }
-
-/* .right {
-    //background-color: #F7F6F7;
-    //width: 50vw;
-    //color: #284D68;
-    font-size: 18px;
-}*/
-
-.about-header {}
-
-/* REPEATED ABOVE: .left-header, .right-header {
-    text-align: center;
-    letter-spacing: 1px;
-    font-size: 50px;
-    margin-top: 10px;
-    padding-bottom: 20px;
-}*/
 
 .about-contact {}
 
@@ -238,12 +224,12 @@ a:hover {
 
 .contact > a {
     display: inline-block;
-}
+}*/
 
-.contact > a > img {
+.about-contact > a > img {
     width: 40px;
     height: 40px;
-}*/
+}
 
 .about-credentials {}
 
