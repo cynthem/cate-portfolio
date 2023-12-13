@@ -295,6 +295,104 @@ a:hover {
     }
 }
 
-/*
+@media (max-width: 750px) {
+    .offerings {
+        flex-direction: column;
+    }
 
- */
+    .lessons,
+    .classes,
+    .about {
+        width: 100vw;
+        font-size: 15px;
+    }
+
+    .header {
+        font-size: 35px;
+        height: 340px;
+    }
+
+    .heading {
+        left: 32vw;
+    }
+
+    .images > img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .images > .large-img {
+        height: 202px;
+    }
+
+    .classes-list {
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 60px;
+    }
+
+    .lessons-price,
+    .classes-link {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    .header {
+        font-size: 32px;
+        height: 320px;
+    }
+
+    .heading {
+        left: 30vw;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .images > img {
+        margin-right: 15px;
+    }
+
+    .lessons-list {
+        font-size: 16px;
+    }
+
+    .lessons > ul {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 550px) {
+    .header {
+        font-size: 30px;
+    }
+
+    .heading {
+        text-align: center;
+        left: 90px;
+        top: 10px;
+    }
+
+    .images > img {
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+    }
+
+    .images > .large-img {
+        height: 168px;
+    }
+
+    .lessons > ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .classes-list {
+        flex-direction: column;
+    }
+}
+
+/*
+*/
