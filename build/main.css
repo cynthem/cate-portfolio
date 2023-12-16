@@ -248,6 +248,13 @@ a:hover {
 
 /* --- RESPONSIVE STYLES --- */
 
+@media (min-width: 1700px) {
+    .heading {
+        left: 40vw;
+    }
+
+}
+
 @media (max-width: 950px) {
     .header {
         font-size: 40px;
