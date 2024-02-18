@@ -174,14 +174,25 @@ li {
 }
 
 .classes-description {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.classes-season {
+    margin-bottom: 30px;
+    color: rgb(199, 0, 0);
 }
 
 .classes-list {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 100px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
     color: #005a2c;
+    margin-bottom: 46px;
+}
+
+.classes-swing {
+    grid-column: span 2;
 }
 
 .classes-name {
@@ -278,10 +289,6 @@ a:hover {
     .classes {
         font-size: 14px;
     }
-
-    .classes-list {
-        justify-content: space-between;
-    }
 }
 
 @media (max-width: 850px) {
@@ -299,11 +306,6 @@ a:hover {
     .classes-header,
     .about-header {
         font-size: 40px;
-    }
-
-    .classes-list {
-        flex-direction: column;
-        gap: 30px;
     }
 }
 
@@ -335,12 +337,6 @@ a:hover {
 
     .images > .large-img {
         height: 202px;
-    }
-
-    .classes-list {
-        flex-direction: row;
-        justify-content: space-around;
-        margin-bottom: 60px;
     }
 
     .lessons-price,
@@ -401,10 +397,6 @@ a:hover {
 
     .lessons > ul {
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    .classes-list {
-        flex-direction: column;
     }
 }
 
@@ -488,6 +480,10 @@ a:hover {
     .about-contact {
         margin-left: 10px;
         margin-right: 10px;
+    }
+
+    .classes {
+        font-size: 13px;
     }
 }
 
