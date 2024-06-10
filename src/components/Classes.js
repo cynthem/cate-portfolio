@@ -4,6 +4,12 @@ export default function Classes() {
     return (
         <div className="classes">
             <h3 className='classes-header'>Group Classes</h3>
+            <p className='temp-content'>**Stay tuned for Fall 2024 class info!**</p>
+        </div>
+    );
+}
+
+/* CONTENT BELOW <h3>
             <p className='classes-description'>Join me at Northwestern University for group classes at the Norris University Center! Lessons are open to the public.</p>
             <p className='classes-season'>**Spring schedule**</p>
             <div className='classes-list'>
@@ -33,6 +39,4 @@ export default function Classes() {
                 </a>
                 .
             </p>
-        </div>
-    );
-}
+*/
