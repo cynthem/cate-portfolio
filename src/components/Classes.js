@@ -4,39 +4,34 @@ export default function Classes() {
     return (
         <div className="classes">
             <h3 className='classes-header'>Group Classes</h3>
-            <p className='temp-content'>**Stay tuned for Fall 2024 class info!**</p>
-        </div>
-    );
-}
-
-/* CONTENT BELOW <h3>
             <p className='classes-description'>Join me at Northwestern University for group classes at the Norris University Center! Lessons are open to the public.</p>
-            <p className='classes-season'>**Spring schedule**</p>
+            <p className='classes-season'>**Fall schedule**</p>
             <div className='classes-list'>
                 <div className='classes-bachata'>
-                    <p className='classes-name'>Intro to Bachata</p>
-                    <p>April 9 - May 21</p>
-                    <p>Tuesday 6-6:50 pm</p>
+                    <p className='classes-name'>Intro to Swing Dancing</p>
+                    <p>October 9th - November 13th</p>
+                    <p>Wednesdays 6:00 - 6:50 pm</p>
                 </div>
                 <div className='classes-salsa'>
-                    <p className='classes-name'>Intro to Salsa</p>
-                    <p>April 9 - May 21</p>
-                    <p>Tuesday 7-7:50 pm</p>
-                </div>
-                <div className='classes-swing'>
-                    <p className='classes-name'>Intro to Swing</p>
-                    <p>April 9 - May 21</p>
-                    <p>Tuesday 8-8:50 pm</p>
+                    <p className='classes-name'>Intro to Waltz/Polka</p>
+                    <p>October 9th - November 13th</p>
+                    <p>Wednesdays 7:00 - 7:50 pm</p>
                 </div>
             </div>
             <p className='classes-link'>For more information, and to register, visit the 
                 <a 
-                    href="https://www.northwestern.edu/norris/arts-recreation/mini-courses/"
+                    href="https://www.northwestern.edu/norris/arts-recreation/mini-courses/current-courses.html"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Northwestern website
+                    Norris University Center website
                 </a>
                 .
             </p>
+        </div>
+    );
+}
+
+/* CONTENT BELOW <h3>: 
+            <p className='temp-content'>**Stay tuned for Fall 2024 class info!**</p>
 */
