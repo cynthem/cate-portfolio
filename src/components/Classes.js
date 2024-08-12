@@ -9,12 +9,12 @@ export default function Classes() {
             <div className='classes-list'>
                 <div className='classes-bachata'>
                     <p className='classes-name'>Intro to Swing Dancing</p>
-                    <p>October 9th - November 13th</p>
+                    <p>Oct. 9th - Nov. 13th</p>
                     <p>Wednesdays 6:00 - 6:50 pm</p>
                 </div>
                 <div className='classes-salsa'>
                     <p className='classes-name'>Intro to Waltz/Polka</p>
-                    <p>October 9th - November 13th</p>
+                    <p>Oct. 9th - Nov. 13th</p>
                     <p>Wednesdays 7:00 - 7:50 pm</p>
                 </div>
             </div>
