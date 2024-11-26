@@ -177,7 +177,7 @@ li {
     margin-bottom: 45px;
 }
 
-/*.classes-description {
+.classes-description {
     margin-bottom: 20px;
 }
 
@@ -192,7 +192,6 @@ li {
     grid-template-columns: 1fr 1fr;
     row-gap: 30px;
     color: #005a2c;
-    margin-bottom: 46px;
 }
 
 .classes-swing {
@@ -202,7 +201,7 @@ li {
 .classes-name {
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
-}*/
+}
 
 a {
     padding-left: 4px;
@@ -452,7 +451,7 @@ a:hover {
     }
 
     .classes-list {
-        margin-bottom: 50px;
+        /*margin-bottom: 50px;*/
     }
 }
 

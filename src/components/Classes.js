@@ -5,7 +5,7 @@ export default function Classes() {
         <div className="classes">
             <h3 className='classes-header'>Group Classes</h3>
             <p className='classes-description'>Join me at Northwestern University for group classes at the Norris University Center! Lessons are open to the public.</p>
-            <p className='classes-season'>**Fall schedule**</p>
+            <p className='classes-season'>**Winter schedule**</p>
             <div className='classes-list'>
                 <div className='classes-bachata'>
                     <p className='classes-name'>Intro to Swing Dancing</p>
