@@ -192,11 +192,8 @@ li {
     grid-template-columns: 1fr 1fr;
     row-gap: 30px;
     color: #005a2c;
+    margin-bottom: 20px;
 }
-
-/*.classes-swing {
-    grid-column: span 2;
-}*/
 
 .classes-list > :last-child {
     grid-column: span 2;
