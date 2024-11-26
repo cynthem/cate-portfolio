@@ -198,7 +198,7 @@ li {
 .classes-list > :last-child {
     grid-column: span 2;
     justify-self: center;
-  }
+}
 
 .classes-name {
     font-family:Arial, Helvetica, sans-serif;
@@ -268,7 +268,6 @@ a:hover {
     .heading {
         left: 40vw;
     }
-
 }
 
 @media (max-width: 950px) {
@@ -347,6 +346,12 @@ a:hover {
     .lessons-price,
     .classes-link {
         margin-bottom: 20px;
+    }
+
+    .classes-list {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        margin-bottom: 30px;
     }
 }
 
