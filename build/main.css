@@ -347,12 +347,6 @@ a:hover {
     .classes-link {
         margin-bottom: 20px;
     }
-
-    .classes-list {
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns: 1fr;
-        margin-bottom: 30px;
-    }
 }
 
 @media (max-width: 650px) {
@@ -459,6 +453,10 @@ a:hover {
 
     .classes-list {
         /*margin-bottom: 50px;*/
+    }
+    .classes-list {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 }
 

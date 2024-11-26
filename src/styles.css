@@ -451,12 +451,9 @@ a:hover {
         margin-bottom: 40px;
     }
 
-    .classes-list {
-        /*margin-bottom: 50px;*/
-    }
-    .classes-list {
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns: 1fr;
+    .classes-list > :first-child {
+        grid-column: span 2;
+        justify-self: center;
     }
 }
 
