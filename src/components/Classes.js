@@ -12,7 +12,7 @@ export default function Classes() {
                     <p>Jan. 22 - Feb. 26</p>
                     <p>Wednesdays 6 - 6:50 pm</p>
                 </div>
-                <div className='classes-salsa'>
+                <div className='classes-middle'>
                     <p className='classes-name'>Intro to Bachata</p>
                     <p>Jan. 22 - Feb. 26</p>
                     <p>Wednesdays 7 - 7:50 pm</p>
