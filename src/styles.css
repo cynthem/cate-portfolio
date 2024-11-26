@@ -194,9 +194,14 @@ li {
     color: #005a2c;
 }
 
-.classes-swing {
+/*.classes-swing {
     grid-column: span 2;
-}
+}*/
+
+.classes-list > :last-child {
+    grid-column: span 2;
+    justify-self: center;
+  }
 
 .classes-name {
     font-family:Arial, Helvetica, sans-serif;
